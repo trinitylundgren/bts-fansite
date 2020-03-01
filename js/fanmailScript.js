@@ -10,7 +10,6 @@ document.getElementById("selector").addEventListener("change", function(){
 // Fanmail page POST request
 function postButton(){
 	document.getElementById("postSubmit").addEventListener("click", function(event){
-		console.log("click");
 		let req = new XMLHttpRequest();
 		let payload = {member:null, name:null, hometown:null, message:null};
 		

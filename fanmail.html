@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BTS Fan Site - Fanmail</title>
+
+	<!-- Required Meta Tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+	<!-- Google Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bad Script">
+	<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+	
+	<!-- My CSS -->
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+</head>
+<body>
+	<div class="container">
+		<h1 id="siteHeader" class="text-center pt-3 font1">BTS Fan Site</h1>
+
+		<ul class="nav nav-pills justify-content-center font1">
+		  <li class="nav-item">
+		    <a class="nav-link" href="home.html">Home</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" href="bio.html">Member Biographies</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" href="discography.html">Discography</a>
+		  </li>
+		  <li class="nav-item">
+		  	<a class="nav-link active" href="fanmail.html">Send Fanmail</a>
+		  </li>
+		  <li class="nav-item">
+		  	<a class="nav-link" href="events.html">Events</a>
+		  </li>
+		  <li class="nav-item">
+		  	<a class="nav-link" href="links.html">Links</a>
+		  </li>
+		</ul>
+
+
+		<!-- Fanmail Header and Image -->
+		<div><h2 class="text-center mt-3 font1" style="color: magenta;">Send Fanmail to a Member of BTS</h2></div>
+
+		<div class="text-center"><img id="mailImage" src="images/rmMail.jpg" class="img-fluid borderImage" alt="BTS Fanmail"></div>
+
+		<!-- Send Fanmail Form -->
+		<form>
+		  <div class="form-group mt-3">
+		  	<label for="selector">Select a member to write to:</label>
+		  	<select class="custom-select" id="selector">
+			  <option selected value="1">RM</option>
+			  <option value="2">Jin</option>
+			  <option value="3">Suga</option>
+			  <option value="4">J-Hope</option>
+			  <option value="5">Jimin</option>
+			  <option value="6">V</option>
+			  <option value="7">Jungkook</option>
+		  	</select>
+		  </div>
+
+		  <div class="form-group">
+		    <label for="senderName">Your Name:</label>
+		    <input type="text" class="form-control" id="senderName">
+		  </div>
+		  
+		  <div class="form-group">
+		    <label for="senderFrom">Your Hometown:</label>
+		    <input type="text" class="form-control" id="senderFrom">
+		  </div>
+
+
+		  <div class="form-group">
+    		<label for="textArea">Write your message:</label>
+    		<textarea class="form-control" id="textArea" rows="5"></textarea>
+  		  </div>
+
+		  <button id="postSubmit" type="submit" class="btn btn-primary submit-btn">Submit</button>
+		</form>
+
+	<small class="text-muted mt-3">Photo Credit: Love Yourself Concept Photos, Big Hit Entertainment</small>
+
+	</div>
+
+	<script src="js/fanmailScript.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	
+</body>
+</html>

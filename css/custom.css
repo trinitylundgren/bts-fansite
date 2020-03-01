@@ -1,0 +1,38 @@
+#siteHeader {
+	color: gray;
+}
+
+body {
+	font-family: "Rubik";
+}
+
+.font1 {
+	font-family: "Bad Script";
+}
+
+.carousel-item {
+	border = 10px solid black;
+}
+
+/* Horizonal Menu Bar */
+.nav-link {
+  color: gray;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: gray;
+  background-color: white;
+  border: 2px solid lightpink;
+}
+
+.borderImage {
+	border: 3px dashed lightpink;
+	max-width: 200px;
+}
+
+.submit-btn {
+	background-color: lightpink;
+	border: 1px solid lightpink;
+	color: gray;
+}

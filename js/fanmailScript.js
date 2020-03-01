@@ -18,7 +18,7 @@ function postButton(){
 		payload.name = document.getElementById("senderName").value;
 		payload.hometown = document.getElementById("senderFrom").value;
 		payload.message = document.getElementById("textArea").value;
-		req.open("POST", "http://httpbin.org/post", false);
+		req.open("POST", "https://httpbin.org/post", false);
 		event.preventDefault();
 		req.setRequestHeader("Content-Type", "application/json");
 		req.send(JSON.stringify(payload));

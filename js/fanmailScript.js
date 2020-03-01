@@ -24,5 +24,6 @@ function postButton(){
 		req.send(JSON.stringify(payload));
 		let response = JSON.parse(req.responseText);
 		console.log(response);
+		document.getElementById("messageSent").style.display = "block";
 	});
 }
